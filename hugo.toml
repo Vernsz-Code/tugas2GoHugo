@@ -3,7 +3,7 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "http://localhost:1313/"
-title = "Jane - A super concise theme for Hugo"
+title = "Konsultan Perizinan Bangunan Gedung SLF dan IMB Jakarta - Perizinan Jakarta"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -26,29 +26,45 @@ defaultContentLanguage = "en"           # Default language to use
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "This is Home"
+  name = "Home"
   weight = 10
   identifier = "home"
   pageref = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "Tentang kami"
   weight = 20
-  identifier = "archives"
-  pageref = "/post/"
+  identifier = "About"
+  pageref = "/#About"
 [[menu.main]]
-  name = "Tags"
+  name = "Layanan kami"
   weight = 30
-  identifier = "tags"
-  pageref = "/tags/"
+  identifier = "Service"
+  pageref = "/#Service"
 [[menu.main]]
-  name = "Categories"
+  name = "Project"
   weight = 40
-  identifier = "categories"
-  pageref = "/categories/"
+  identifier = "Project"
+  pageref = "/#Project"
 [[menu.main]]
-  name = "external-link"
-  weight = 50
-  pageref = "https://gohugo.io"
+  name = "Peraturan"
+  weight = 30
+  identifier = "Peraturan"
+  pageref = "/#Peraturan"
+[[menu.main]]
+  name = "Karir"
+  weight = 20
+  identifier = "Karir"
+  pageref = "/#Karir"
+[[menu.main]]
+  name = "Info"
+  weight = 10
+  identifier = "Info"
+  pageref = "/#Info"
+[[menu.main]]
+  name = "Hubungi Kami"
+  weight = 40
+  identifier = "ContactUS"
+  pageref = "/#ContactUS"
 
 
 [params]
@@ -79,25 +95,7 @@ defaultContentLanguage = "en"           # Default language to use
   customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
-  [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
+  [params.social]                       
     d-facebook = "http://localhost:1313"
     e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
     m-instagram = "http://localhost:1313"
-    n-gitlab = "http://localhost:1313"
-    o-goodreads = "http://localhost:1313"
-    p-coding = "http://localhost:1313"
-    q-bilibili = "http://localhost:1313"
-    r-codeforces = "http://localhost:1313"
-    s-mastodon = "http://localhost:1313"
-    t-youtube = "http://localhost:1313"
-    u-twitch = "http://localhost:1313"
