@@ -159,7 +159,7 @@
           <ul class="mobile-submenu-list">
             
               <li>
-                <a href="http://localhost:1313/post/demo/1-image/">Demo: Image</a>
+                <a href="http://localhost:1313/post/demo/1-/image/">Demo: Image</a>
               </li>
             
               <li>
@@ -352,7 +352,7 @@
           <ul class="submenu">
             
               <li class="submenu-item">
-                <a href="http://localhost:1313/post/demo/1-image/">Demo: Image</a>
+                <a href="http://localhost:1313/post/demo/1-/image/">Demo: Image</a>
               </li>
             
               <li class="submenu-item">
@@ -549,8 +549,15 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
     
       <div class="post-summary">
         Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &lt;root&gt;/▾ images/logo.pngshould become
-▾ &lt;root&gt;/▾ static/▾ images/logo.pngAdditionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.
+▾ &lt;root&gt;/
+▾ images/
+logo.png
+should become
+▾ &lt;root&gt;/
+▾ static/
+▾ images/
+logo.png
+Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.
       </div>
       <div class="read-more">
         <a href="/post/other/migrate-from-jekyll/" class="read-more-link"

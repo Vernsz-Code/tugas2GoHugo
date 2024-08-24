@@ -1,5 +1,5 @@
 ---
-teaser_image : "/image/BG_1.png"
+teaser_image : "image/BG_1.png"
 klien_us : "true"
 --- 
 
@@ -49,16 +49,16 @@ Download Company Profile
 # Kenapa memilih kami
 
 {{< tablePrmt 
-    src1="/image/icon-berpengalaman1.png" 
+    src1="image/icon-berpengalaman1.png" 
     title1="BERPENGALAMAN" 
     description1="Tenaga Ahli kami telah berpengalaman mengurus periizinan bangunan sejak tahun 2011. Mulai dari izin bangunan rumah tinggal sampai dengan izin bangunan HighRise yang kompleks." 
-    src2="/image/icon-dipercaya1.png"
+    src2="image/icon-dipercaya1.png"
     title2="DIPERCAYA KLIEN"
     description2="Kami bersyukur telah membantu developer besar dan menyelesaikan perizinan property mereka.Sehingga konsep amanah yang kami jaga, dapat membawa kepercayaan bagi masyarakat dan pelaku usaha."
-    src3="/image/icon-garansi1.png"
+    src3="image/icon-garansi1.png"
     title3="GARANSI PASTI BERES"
     description3="Selama owner tidak melanggar peraturan perizinan, maka kami garansi perizinan Anda pasti beres, diterbitkan oleh DPM PTSP maupun Lembaga Pemeerintah lainnya yang berwenang menerbitkan perizinan."
-    src4="/image/icon-perizinan1.png"
+    src4="image/icon-perizinan1.png"
     title4="TERENCANA & STRATEGIS"
     description4="Kami membantu Anda untuk menyusun timeline perizinan sehingga tahu kapan start penjualan, kapan start konstruksi. Bahkan kami memberikan strategi perizinan agar property Anda profitable."
 >}}

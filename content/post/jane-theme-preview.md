@@ -285,7 +285,7 @@ Image looks similar with links, but it requires an additional `!` char before th
 
 You are able to use drag & drop to insert image from image file or we browser. And modify the markdown source code by clicking on the image. Relative path will be used if image is in same directory or sub-directory with current editing document when drag & drop.
 
-For more tips on images, please read <http://support.typora.io//Images/>
+For more tips on images, please read <http://support.typora.io/image/s/>
 
 ## Emphasis
 
