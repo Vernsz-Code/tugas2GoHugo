@@ -1,3 +1,3 @@
-[submodule "themes/jane"]
-	path = themes/jane
-	url = https://github.com/xianmin/hugo-theme-jane.git
+[submodule "themes/vernsz"]
+	path = themes/vernsz
+	url = https://github.com/Vernsz-Code/hugo-theme-jane.git
