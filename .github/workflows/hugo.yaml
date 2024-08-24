@@ -1,3 +1,27 @@
+name: Deploy Hugo site to Pages
+
+on:
+  # Event triggers when a push is made to the main branch
+  push:
+    branches:
+      - main
+
+  # Allows you to manually trigger this workflow from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
 jobs:
   # Build job
   build:
